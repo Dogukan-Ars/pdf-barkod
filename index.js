@@ -161,7 +161,7 @@ doc.rect(28, 40, 555.28, 15)
    .fillAndStroke("black");
 
 // Ana başlık konumu ve özellikleri
-const anaBaslik = 'IORA.io PRODUCTION CARD';
+const anaBaslik = 'PRODUCTION CARD';
 doc.widthOfString(anaBaslik)
 const anaBaslikX = 25;
 const anaBaslikY = 43;
@@ -290,13 +290,13 @@ function createSubtitle(doc, startX, startY, space, icerikler) {
 
 // Alt başlıkların içerikleri
 const operator = [
-  { content: '7', bgColor: 'white', textColor: 'black' },
-  { content: '7', bgColor: 'white', textColor: 'black' },
-  { content: '9', bgColor: 'white', textColor: 'black' },
-  { content: '2', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
   { content: '-', bgColor: 'gray', textColor: 'black' },
-  { content: 'Y', bgColor: 'white', textColor: 'black' },
-  { content: 'S', bgColor: 'white', textColor: 'black' },
+  { content: 'A', bgColor: 'white', textColor: 'black' },
+  { content: 'A', bgColor: 'white', textColor: 'black' },
   { content: ' ', bgColor: 'white', textColor: 'black' },
   { content: ' ', bgColor: 'white', textColor: 'black' },
 ];
@@ -305,10 +305,10 @@ const datehour = [
   { content: '2', bgColor: 'white', textColor: 'black' },
   { content: '0', bgColor: 'white', textColor: 'black' },
   { content: '2', bgColor: 'white', textColor: 'black' },
-  { content: '3', bgColor: 'white', textColor: 'black' },
+  { content: '4', bgColor: 'white', textColor: 'black' },
   { content: '-', bgColor: 'gray', textColor: 'black' },
   { content: '0', bgColor: 'white', textColor: 'black' },
-  { content: '9', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
   { content: '-', bgColor: 'gray', textColor: 'black' },
   { content: '1', bgColor: 'white', textColor: 'black' },
   { content: '0', bgColor: 'white', textColor: 'black' },
@@ -318,57 +318,57 @@ const datehour = [
 ];
 
 const productId = [
-  { content: '8', bgColor: 'white', textColor: 'black' },
-  { content: '9', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
   { content: '1', bgColor: 'white', textColor: 'black' },
   { content: '.', bgColor: 'gray', textColor: 'black' },
   { content: '1', bgColor: 'white', textColor: 'black' },
-  { content: '0', bgColor: 'white', textColor: 'black' },
-  { content: '0', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
   { content: '.', bgColor: 'gray', textColor: 'black' },
-  { content: '0', bgColor: 'white', textColor: 'black' },
-  { content: '0', bgColor: 'white', textColor: 'black' },
-  { content: '4', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
 ];
 
 const pcbId = [
-  { content: '2', bgColor: 'white', textColor: 'black' },
   { content: '1', bgColor: 'white', textColor: 'black' },
-  { content: '3', bgColor: 'white', textColor: 'black' },
-  { content: '8', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
   { content: '1', bgColor: 'white', textColor: 'black' },
 ];
 
 const ppId = [
-  { content: 'Z', bgColor: 'white', textColor: 'black' },
-  { content: 'T', bgColor: 'white', textColor: 'black' },
-  { content: '3', bgColor: 'white', textColor: 'black' },
-  { content: '2', bgColor: 'white', textColor: 'black' },
-  { content: '7', bgColor: 'white', textColor: 'black' },
+  { content: 'A', bgColor: 'white', textColor: 'black' },
+  { content: 'A', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
+  { content: '1', bgColor: 'white', textColor: 'black' },
 ];
 const ppIdAlt = [
-  { content: 'S', bgColor: 'gray', textColor: 'black', isBold: true },
-  { content: 'F', bgColor: 'white', textColor: 'black' },
-  { content: 'F', bgColor: 'white', textColor: 'black' },
-  { content: 'R', bgColor: 'gray', textColor: 'black', isBold: true },
-  { content: '0', bgColor: 'white', textColor: 'black' },
+  { content: 'A', bgColor: 'gray', textColor: 'black', isBold: true },
+  { content: 'A', bgColor: 'white', textColor: 'black' },
+  { content: 'A', bgColor: 'white', textColor: 'black' },
+  { content: 'A', bgColor: 'gray', textColor: 'black', isBold: true },
+  { content: '1', bgColor: 'white', textColor: 'black' },
 ];
 
 const name = [
-  { content: 'N', bgColor: 'gray', textColor: 'black', isBold: true },
-  { content: 'LORA MPCI-E CONCENTRATOR CARD', bgColor: 'white', textColor: 'black', boxWidth: 200, textWidth: 200 },
+  { content: 'A', bgColor: 'gray', textColor: 'black', isBold: true },
+  { content: 'CONCENTRATOR CARD', bgColor: 'white', textColor: 'black', boxWidth: 200, textWidth: 200 },
 ];
 
 const config = [
-  { content: 'C', bgColor: 'gray', textColor: 'black', isBold: true },
-  { content: '0', bgColor: 'white', textColor: 'black', },
-  { content: '0', bgColor: 'white', textColor: 'black', },
-  { content: '8', bgColor: 'white', textColor: 'black', },
-  { content: '5', bgColor: 'white', textColor: 'black', },
-  { content: '5', bgColor: 'white', textColor: 'black', },
-  { content: '0', bgColor: 'white', textColor: 'black', },
-  { content: '4', bgColor: 'white', textColor: 'black', },
-  { content: '8', bgColor: 'white', textColor: 'black', },
+  { content: 'A', bgColor: 'gray', textColor: 'black', isBold: true },
+  { content: '1', bgColor: 'white', textColor: 'black', },
+  { content: '1', bgColor: 'white', textColor: 'black', },
+  { content: '1', bgColor: 'white', textColor: 'black', },
+  { content: '1', bgColor: 'white', textColor: 'black', },
+  { content: '1', bgColor: 'white', textColor: 'black', },
+  { content: '1', bgColor: 'white', textColor: 'black', },
+  { content: '1', bgColor: 'white', textColor: 'black', },
+  { content: '1', bgColor: 'white', textColor: 'black', },
 ];
 
 const opStartX = 28; // Başlangıç X koordinatı
